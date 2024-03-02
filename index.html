@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>FORMULARIO</title>
+
+</head>
+<body>
+    <h1 id="titulo">Formulario de Contacto</h1>
+    <div id="contenido">
+
+        <div id="contenido-form">
+            <form id="contact-form">
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="telefono">Telefono:</label><br>
+                <input type="tel" id="telefono" name="telefono" required><br><br>
+                
+                <label for="direccion">Dirección:</label><br>
+                <input type="text" id="direccion" name="direccion" required><br><br>
+                
+                <label for="email">Correo Electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="edad">Edad:</label><br>
+                <input type="number" id="edad" name="edad" required><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="mensaje"></p>
+        </div>            
+            <div id="datos-ingresados">
+                <h2>Datos Ingresados:</h2>
+                <p><strong>Nombre:</strong> <span id="nombre-datos"></span></p>
+                <p><strong>Dirección:</strong> <span id="direccion-datos"></span></p>
+                <p><strong>Correo Electrónico:</strong> <span id="email-datos"></span></p>
+                <p><strong>Teléfono:</strong> <span id="telefono-datos"></span></p>
+                <p><strong>Edad:</strong> <span id="edad-datos"></span></p>
+            </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

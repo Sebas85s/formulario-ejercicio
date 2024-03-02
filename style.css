@@ -1,0 +1,44 @@
+body{
+    min-height: 100vh;
+    padding: 40px 0;
+    background: url(IMG/fondo.jpg) no-repeat center center/cover;
+}
+#titulo{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#contenido{
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenido-form{
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    margin: 10px 50px 0px 50px;
+    background-color: rgba(255, 255, 255, 0.438);
+    
+}
+
+
+#datos-ingresados {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #3f3f3f00;
+    border: none;
+    border-bottom: solid 1px #3f3f3f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    outline: none;
+}
